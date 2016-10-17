@@ -1,0 +1,15 @@
+[core]
+	excludesfile = /Users/$(whoami)/.gitignore
+[user]
+	name = Eyad Toma
+	email = d.eyad.t@gmail.com
+[push]
+	default = matching
+[difftool "sourcetree"]
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/kdiff3.app/Contents/MacOS/kdiff3 \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = meld

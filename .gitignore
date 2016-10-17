@@ -1,0 +1,5 @@
+.DS\_Store
+*.sw?
+local_eyad.py
+local_test.py
+pytest.ini
